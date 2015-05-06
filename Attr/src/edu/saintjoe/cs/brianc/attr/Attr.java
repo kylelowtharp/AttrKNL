@@ -10,13 +10,14 @@ public class Attr {
 	private Object value = null;
 	
 	/* ---------------------------------------------------------------------- */
-
-	// One-parameter constructor; I know the name, I don't know the value
+	//Comments on overloaded code
+	// These two are overloaded because these are two functions with the same name
+	// and are in the same class but they have different pararamters
 	public Attr(String name) {
 		this.name = name;
 	}
 
-	// Two-parameter constructor; I know BOTH the name and the value
+
 	public Attr(String name, Object value) {
 		this.name = name;
 	    this.value = value;
